@@ -36,3 +36,4 @@ class UserAdmin(BaseUserAdmin):
 
 # specify to use thr defined UserAdmin
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Recipe)
